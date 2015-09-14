@@ -8,7 +8,7 @@
 get_header();
 ?> 
 				<div class="col-md-12 content-area image-attachment" id="main-column">
-					<main id="main" class="site-main" role="main">
+					<main id="main" class="site-main container" role="main">
 						<?php 
 						while (have_posts()) {
 							the_post(); 
