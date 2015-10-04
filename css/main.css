@@ -499,6 +499,12 @@ img.aligncenter {
 }
 
 
+.single .site-main,
+.page .site-main {
+	background-color: #FFF;
+}
+
+
 
 .widget_calendar #wp-calendar {
 	margin: 0;
