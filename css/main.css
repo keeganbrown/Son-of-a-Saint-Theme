@@ -81,23 +81,32 @@ div {
 	border-color: rgba(0,0,0,)
 }
 article.post, article.page {
-	padding-top: 30px;
+	padding-top: 70px;
 }
 .page-template-page-who-we-are .post {
 	padding-top: 0px;
 }
-
-@media screen and ( min-width: 768px ) {
-	.page-container {
-		padding-top: 70px;
-	}
-	.home .page-container {
-		padding-top: 0;
-	}
-	.home .page {
-		padding-top: 0;
+.site-branding {
+	z-index: 20;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.page-container {
+	padding-top: 30px;
+}
+.home .page-container {
+	padding-top: 0;
+}
+.home .page {
+	padding-top: 0;
+}
+@media screen and ( max-width: 768px ) {
+	article.post, article.page {
+		padding-top: 30px;
 	}
 }
+
 .fixed-header-bar {
 	position: fixed;	
 	z-index: 500;
@@ -192,7 +201,7 @@ article.post, article.page {
 }
 .btn-default {
 	background-image: none;
-	background-color: rgba(30, 31, 28, 0.7);
+	background-color: rgba(255,255,255, 0.1);
 	border-color: #c58232;
 	border-radius: 0;
 	color: #c58232;
@@ -225,14 +234,14 @@ article.post, article.page {
 	}
 }
 .hero-item {
-	height: 100vh;
+	min-height: 100vh;
 	overflow: hidden;
 	background-size: auto 100%;
 	background-position: center center;
 }
 @media screen and ( min-width: 768px ) {
 	.hero-item {
-		height: 100vh;
+		min-height: 100vh;
 		overflow: hidden;
 		background-attachment: fixed;
 		background-size: cover;
@@ -240,8 +249,12 @@ article.post, article.page {
 	}
 }
 .hero-content-box {
-    top: 20%;
+    padding-top: 160px;
     padding-right: 50%;
+    padding-bottom: 40px;
+}
+.hero-item .floating-hero-cta .hero-content-box {
+    padding-top: 160px;
 }
 .hero-content-box h2 {
 	float: left;
@@ -305,6 +318,27 @@ article.post, article.page {
 		width: 45%;
 	}
 }
+.floating-hero-cta-wrap {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	clip: rect(0, auto, auto, 0);
+	z-index: 100;
+}
+.floating-hero-cta {
+	position: fixed;
+    z-index: 100;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.floating-hero-cta .hero-content-box {
+	padding-top: 22em;
+}
+.main-floating-cta {
+	z-index: 1001;
+}
+
 
 /* OTHER STUFF */
 img.aligncenter {
@@ -460,6 +494,9 @@ img.aligncenter {
 	opacity: 1;
 }
 
+.site-main {
+	min-height: 65vh;
+}
 
 .site-main .format-aside {
 	background: #f5f5f5;
@@ -499,12 +536,71 @@ img.aligncenter {
 }
 
 
-.single .site-main,
-.page .site-main {
-	background-color: #FFF;
+.single .site-main h1,
+.page-template-default .site-main h1 {
+	color: #8a5d26;
+	text-transform: uppercase;
+	font-weight: 900;
 }
-
-
+.single .site-main,
+.page-template-default .site-main {
+	background-color: #FFF;
+	color: #636466;
+}
+.single .entry-content,
+.page-template-default .entry-content {
+	padding: 20px
+}
+@media screen and (min-width: 768px) {
+	.single .entry-content,
+	.page-template-default .entry-content {
+		padding: 60px
+	}
+}
+.image-header {
+	margin-left: -15px;
+    margin-right: -15px;
+    overflow: hidden;
+    position: relative;
+}
+.image-header:before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: block;
+	background-color: rgba(255,255,255,0.82);
+	z-index: 20;
+}
+#main-column .image-header img {
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: 19;
+	width: 100%;
+}
+@media screen and ( min-width: 768px ) {
+	#main-column .image-header img {
+		position: absolute;
+	}
+}
+.image-header .heading-text-wrap h2 {
+	font-size: 110%;
+	max-width: 620px;
+	margin: 0 auto;
+	line-height: 1.5;
+}
+.image-header .heading-text-wrap {
+	position: relative;
+	padding: 10px 40px 0 40px;
+	z-index: 21;
+	text-align: center;
+}
+@media screen and ( min-width: 768px ) {
+	.image-header .heading-text-wrap {
+		padding: 100px 30px 100px 30px;
+	}
+}
 
 .widget_calendar #wp-calendar {
 	margin: 0;

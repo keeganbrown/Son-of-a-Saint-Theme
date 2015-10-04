@@ -13,28 +13,42 @@ get_header();
 $main_column_size = bootstrapBasicGetMainColumnSize();
 ?> 
 				<div class="heros-box" id="main-column">
+					<div class="main-floating-cta floating-hero-cta-wrap">
+					<div class="floating-hero-cta">
+					<div class="hero-content-box container">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+						<a href="/" class="btn btn-default">Learn More</a>
+					</div>
+					</div>
+					</div>
 					<div class="hero-item" style="background-image: url('<?php echo get_stylesheet_directory_uri().'/img/hero-christopher.jpg'; ?>');">
+						<div class="floating-hero-cta-wrap">
+						<div class="floating-hero-cta">
 						<div class="hero-content-box container">
 							<h2>Meet <br>
 								Christopher</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-							<a href="/" class="btn btn-default">Learn More</a>
+						</div>
+						</div>
 						</div>
 					</div>
 					<div class="hero-item" style="background-image: url('<?php echo get_stylesheet_directory_uri().'/img/hero-aaron.jpg'; ?>');">
+						<div class="floating-hero-cta-wrap">
+						<div class="floating-hero-cta">
 						<div class="hero-content-box container">
 							<h2>Meet <br>
 								Aaron</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-							<a href="/" class="btn btn-default">Learn More</a>
+						</div>
+						</div>
 						</div>
 					</div>
 					<div class="hero-item" style="background-image: url('<?php echo get_stylesheet_directory_uri().'/img/hero-kush.jpg'; ?>');">
+						<div class="floating-hero-cta-wrap">
+						<div class="floating-hero-cta">
 						<div class="hero-content-box container">
 							<h2>Meet <br>
 								Kush</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-							<a href="/" class="btn btn-default">Learn More</a>
+						</div>
+						</div>
 						</div>
 					</div>
 				</div>

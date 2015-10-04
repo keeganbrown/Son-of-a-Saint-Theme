@@ -31,7 +31,7 @@
 		
 		<div class="container-fluid page-container">
 			<?php do_action('before'); ?> 
-			<div class="fixed-header-bar">
+			<div id="pushdown-header" class="fixed-header-bar">
 			<header role="banner" id="main-header-stripe" class="clearfix">
 				<div class="container">
 				<div class="row">
