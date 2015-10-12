@@ -60,9 +60,6 @@
 		</div><!--.entry-meta-category-tag-->
 		<?php } // End if 'post' == get_post_type() ?> 
 
-		<div class="entry-meta-comment-tools">
-			<?php bootstrapBasicEditPostLink(); ?> 
-		</div><!--.entry-meta-comment-tools-->
 	</footer><!-- .entry-meta -->
 	<?php } // is_single() ?>
 </article><!-- #post -->

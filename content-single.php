@@ -28,6 +28,5 @@
 			$tag_list = get_the_tag_list('', __(', ', 'son-of-a-saint'));
 		?> 
 
-		<?php bootstrapBasicEditPostLink(); ?> 
 	</footer><!-- .entry-meta -->
 </article><!-- #post -->

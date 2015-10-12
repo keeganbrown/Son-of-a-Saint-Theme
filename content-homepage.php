@@ -14,7 +14,4 @@
 		));
 		?>
 	</div><!-- .entry-content -->
-	<footer class="entry-meta">
-		<?php bootstrapBasicEditPostLink(); ?> 
-	</footer>
 </article><!-- #post-## -->

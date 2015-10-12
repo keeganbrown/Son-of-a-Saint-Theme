@@ -11,7 +11,7 @@
 			
 			<footer id="site-footer" role="contentinfo" class="container">
 				<div id="footer-row" class="row site-footer">
-					<div class="col-md-6 footer-left">
+					<div class="col-md-6 footer-left sharing-links">
 						<?php 
 						if (!dynamic_sidebar('footer-left')) {
 							?>

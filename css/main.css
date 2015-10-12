@@ -322,17 +322,39 @@ article.post, article.page {
 	border: 1px solid #FFF;
 	color: #FFF
 }
+.home.page-template-default .site-main {
+	background-color: transparent;
+}
+.home.page-template-default .entry-content {
+	padding: 30px;
+	color: #FFF;
+}
 @media screen and (min-width: 768px) {
+	.home.page-template-default .entry-content {
+		padding: 30px;
+		color: #FFF;
+	}
+	.home.page-template-default .entry-content h2 {
+	    width: 40%;
+	    float: right;
+	   	margin: 90px 40px;
+	   	padding: 30px;
+	   	border: 1px solid #c58232;
+   	}
+	.home.page-template-default .entry-content h2 strong {
+	    white-space: no-wrap;
+   	}
+
 	.home .donate-cta:after,
 	.home .donate-cta::after {
 		position: absolute;
 		top: 0;
 		right: 0;
-		width: 50%;
+		width: 57%;
 		height: 100%;
 	}
 	.home .donate-copy {
-		width: 45%;
+		width: 40%;
 	}
 }
 .floating-hero-cta-wrap {
@@ -354,6 +376,16 @@ article.post, article.page {
 }
 .main-floating-cta {
 	z-index: 499;
+}
+.sharing-links a {
+	display: inline-block;
+	background-color: #FFF;
+	color: #231f20;
+	border-radius: 2em;
+	font-size: 120%;
+	width: 1.5em;
+	height: 1.5em;
+	text-align: center;
 }
 
 
