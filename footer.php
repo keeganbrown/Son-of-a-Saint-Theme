@@ -16,9 +16,9 @@
 						if (!dynamic_sidebar('footer-left')) {
 							?>
 							<ul class="list-inline">
-								<li><a href="https://facebook.com/sonofasaintorg"><i class="fa fa-facebook"></i></a></li>
-								<li><a href="https://twitter.com/sonofasaintorg"><i class="fa fa-twitter"></i></a></li>
-								<li><a href="https://instagram.com/sonofasaintorg"><i class="fa fa-instagram"></i></a></li>
+								<li><a href="https://facebook.com/sonofasaintorg" target="_blank"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="https://twitter.com/sonofasaintorg" target="_blank"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="https://instagram.com/sonofasaintorg" target="_blank"><i class="fa fa-instagram"></i></a></li>
 							</ul>
 							<?php
 						} 
@@ -28,7 +28,9 @@
 						<?php 
 							if (!dynamic_sidebar('footer-right')) { 
 						?> 
-						<a href="mailto:sonny@sonofasaint.org" class="btn btn-default">Email</a>
+						<p>
+						<a href="mailto:sonny@sonofasaint.org" class="btn btn-default">Email</a> &nbsp; &nbsp; <small>3425 Palmyra Street, New Orleans, LA 70119, USA  504.655.8416</small>
+						</p>
 						<?php 
 							} 
 						?>
