@@ -15,9 +15,11 @@ $main_column_size = bootstrapBasicGetMainColumnSize();
 				<div class="heros-box" id="main-column">
 					<div class="main-floating-cta floating-hero-cta-wrap">
 					<div class="floating-hero-cta">
-					<div class="hero-content-box container">
+					<div class="container">
+					<div class="hero-content-box">
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 						<a href="/" class="btn btn-default">Learn More</a>
+					</div>
 					</div>
 					</div>
 					</div>
