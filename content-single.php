@@ -1,10 +1,6 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
 		<h1 class="entry-title"><?php the_title(); ?></h1>
-
-		<div class="entry-meta">
-			<?php bootstrapBasicPostOn(); ?> 
-		</div><!-- .entry-meta -->
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">
@@ -30,14 +26,6 @@
 
 			/* translators: used between list items, there is a space after the comma */
 			$tag_list = get_the_tag_list('', __(', ', 'son-of-a-saint'));
-			
-			echo bootstrapBasicCategoriesList($category_list);
-			if ($tag_list) {
-				echo ' ';
-				echo bootstrapBasicTagsList($tag_list);
-			}
-			echo ' ';
-			printf(__('<span class="glyphicon glyphicon-link"></span> <a href="%1$s" title="Permalink to %2$s" rel="bookmark">permalink</a>.', 'son-of-a-saint'), get_permalink(), the_title_attribute('echo=0'));
 		?> 
 
 		<?php bootstrapBasicEditPostLink(); ?> 

@@ -61,10 +61,6 @@
 		<?php } // End if 'post' == get_post_type() ?> 
 
 		<div class="entry-meta-comment-tools">
-			<?php if (! post_password_required() && (comments_open() || '0' != get_comments_number())) { ?> 
-			<span class="comments-link"><?php bootstrapBasicCommentsPopupLink(); ?></span>
-			<?php } //endif; ?> 
-
 			<?php bootstrapBasicEditPostLink(); ?> 
 		</div><!--.entry-meta-comment-tools-->
 	</footer><!-- .entry-meta -->

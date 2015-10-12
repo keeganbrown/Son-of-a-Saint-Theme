@@ -15,13 +15,23 @@
 						<?php 
 						if (!dynamic_sidebar('footer-left')) {
 							?>
-							<p>Sharing Links go here</p>
+							<ul class="list-inline">
+								<li><a href="https://facebook.com/sonofasaintorg"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="https://twitter.com/sonofasaintorg"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="https://instagram.com/sonofasaintorg"><i class="fa fa-instagram"></i></a></li>
+							</ul>
 							<?php
 						} 
 						?> 
 					</div>
 					<div class="col-md-6 footer-right text-right">
-						<?php dynamic_sidebar('footer-right'); ?> 
+						<?php 
+							if (!dynamic_sidebar('footer-right')) { 
+						?> 
+						<a href="mailto:sonny@sonofasaint.org" class="btn btn-default">Email</a>
+						<?php 
+							} 
+						?>
 					</div>
 				</div>
 			</footer>

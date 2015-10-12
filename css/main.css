@@ -88,7 +88,7 @@ div {
 	border-color: rgba(0,0,0,)
 }
 article.post, article.page {
-	padding-top: 70px;
+	padding-top: 30px;
 }
 .page-template-page-who-we-are .post {
 	padding-top: 0px;
@@ -100,7 +100,7 @@ article.post, article.page {
 	left: 0;
 }
 .page-container {
-	padding-top: 30px;
+	padding-top: 70px;
 }
 .home .page-container {
 	padding-top: 0;
@@ -244,6 +244,7 @@ article.post, article.page {
 	min-height: 100vh;
 	overflow: hidden;
 	background-size: auto 100%;
+	background-repeat: no-repeat;
 	background-position: center center;
 }
 @media screen and ( min-width: 768px ) {
@@ -253,6 +254,11 @@ article.post, article.page {
 		background-attachment: fixed;
 		background-size: cover;
 		background-position: center center;
+	}
+}
+@media screen and ( max-height: 550px ) {
+	.hero-item {
+		background-size: contain;
 	}
 }
 .hero-content-box {
@@ -311,6 +317,10 @@ article.post, article.page {
 	padding-top: 40px;
 	padding-bottom: 40px;
 	width: 100%;
+}
+.home .donate-copy .btn {
+	border: 1px solid #FFF;
+	color: #FFF
 }
 @media screen and (min-width: 768px) {
 	.home .donate-cta:after,
@@ -440,7 +450,7 @@ img.aligncenter {
 	background-color: rgba(0,0,0,0.7);
 	width: 100%;
 	height: 100%;
-	padding: 20px;
+	padding: 12.5%;
 	text-align: center;
 	-webkit-transition: all 400ms ease-in-out;
 	-moz-transition: all 400ms ease-in-out;
@@ -465,11 +475,11 @@ img.aligncenter {
 	-ms-transition: all 150ms ease-out;
 	-o-transition: all 150ms ease-out;
 	transition: all 150ms ease-out;	
-	-webkit-transition-delay: 400ms;
-	-moz-transition-delay: 400ms;
-	-ms-transition-delay: 400ms;
-	-o-transition-delay: 400ms;
-	transition-delay: 400ms;
+	-webkit-transition-delay: 300ms;
+	-moz-transition-delay: 300ms;
+	-ms-transition-delay: 300ms;
+	-o-transition-delay: 300ms;
+	transition-delay: 300ms;
 	-webkit-transform: translate3d(-30%,0,0);
 	-moz-transform: translate3d(-30%,0,0);
 	-ms-transform: translate3d(-30%,0,0);
@@ -478,11 +488,11 @@ img.aligncenter {
 	opacity: 0;
 }
 .member-grid .info p {
-	-webkit-transition-delay: 450ms;
-	-moz-transition-delay: 450ms;
-	-ms-transition-delay: 450ms;
-	-o-transition-delay: 450ms;
-	transition-delay: 450ms;
+	-webkit-transition-delay: 350ms;
+	-moz-transition-delay: 350ms;
+	-ms-transition-delay: 350ms;
+	-o-transition-delay: 350ms;
+	transition-delay: 350ms;
 }
 .member-grid .member a:hover .info {
 	-webkit-transform: translate3d(0,0,0) rotateY(0deg);
@@ -543,22 +553,26 @@ img.aligncenter {
 }
 
 
+.blog .site-main h1,
 .single .site-main h1,
 .page-template-default .site-main h1 {
 	color: #8a5d26;
 	text-transform: uppercase;
 	font-weight: 900;
 }
+.blog .site-main,
 .single .site-main,
 .page-template-default .site-main {
 	background-color: #FFF;
 	color: #636466;
 }
+.blog .entry-content,
 .single .entry-content,
 .page-template-default .entry-content {
 	padding: 20px
 }
 @media screen and (min-width: 768px) {
+	.blog .entry-content,
 	.single .entry-content,
 	.page-template-default .entry-content {
 		padding: 60px
@@ -596,6 +610,10 @@ img.aligncenter {
 	max-width: 620px;
 	margin: 0 auto;
 	line-height: 1.5;
+}
+.heading-text-wrap {
+	position: relative;
+	text-align: center;
 }
 .image-header .heading-text-wrap {
 	position: relative;
