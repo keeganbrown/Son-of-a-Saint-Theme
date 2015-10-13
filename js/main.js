@@ -5,21 +5,16 @@ if(!Date.now)Date.now=function(){return(new Date).getTime()};(function(){var n=[
 
 function init () {
 	var $hdr = $('#pushdown-header'),
-		$win = $(window),
-		_mt = ~~(($hdr.css('margin-top')).replace(/[^0-9]*/gi,'')),
-		scrolltop = 0;
+		$win = $(window);
 
 	function move_headerbar () {
 		var _scrolltop = $win.scrollTop();
-		if ( _scrolltop < 0 ) _scrolltop = 0;
-		if ( _scrolltop !== scrolltop ) {
-			if (_mt - _scrolltop >= 0 ) {
-				$hdr.css('top', -(_mt - _scrolltop));
-			} 
-			//console.log( _mt, _scrolltop );
-			scrolltop = _scrolltop;
+		if ( _scrolltop > 70 && !$hdr.hasClass('snap') ) {
+			$hdr.addClass('snap');
+		} else if ( _scrolltop < 70 && $hdr.hasClass('snap') ) {
+			$hdr.removeClass('snap');
 		}
-		//requestAnimationFrame(move_headerbar);
+		setTimeout(move_headerbar, 300)
 	}
 	move_headerbar();
 }
