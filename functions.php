@@ -1,7 +1,7 @@
 <?php
 /**
  * Son of a Saint theme
- * 
+ *
  * @package son-of-a-saint
  */
 
@@ -18,12 +18,12 @@ if (!function_exists('bootstrapBasicSetup')) {
 	/**
 	 * Setup theme and register support wp features.
 	 */
-	function bootstrapBasicSetup() 
+	function bootstrapBasicSetup()
 	{
 		/**
 		 * Make theme available for translation
 		 * Translations can be filed in the /languages/ directory
-		 * 
+		 *
 		 * copy from underscores theme
 		 */
 		load_theme_textdomain('son-of-a-saint', get_template_directory() . '/languages');
@@ -44,11 +44,11 @@ if (!function_exists('bootstrapBasicSetup')) {
 
 		// add support custom background
 		add_theme_support(
-			'custom-background', 
+			'custom-background',
 			apply_filters(
-				'bootstrap_basic_custom_background_args', 
+				'bootstrap_basic_custom_background_args',
 				array(
-					'default-color' => 'ffffff', 
+					'default-color' => 'ffffff',
 					'default-image' => ''
 				)
 			)
@@ -62,7 +62,7 @@ if (!function_exists('bootstrapBasicWidgetsInit')) {
 	/**
 	 * Register widget areas
 	 */
-	function bootstrapBasicWidgetsInit() 
+	function bootstrapBasicWidgetsInit()
 	{
 		register_sidebar(array(
 			'name'          => __('Header right', 'son-of-a-saint'),
@@ -126,7 +126,7 @@ if (!function_exists('bootstrapBasicEnqueueScripts')) {
 	/**
 	 * Enqueue scripts & styles
 	 */
-	function bootstrapBasicEnqueueScripts() 
+	function bootstrapBasicEnqueueScripts()
 	{
 		wp_enqueue_style('bootstrap-style', get_template_directory_uri() . '/css/bootstrap.min.css');
 		wp_enqueue_style('bootstrap-theme-style', get_template_directory_uri() . '/css/bootstrap-theme.min.css');
@@ -138,6 +138,7 @@ if (!function_exists('bootstrapBasicEnqueueScripts')) {
 		wp_enqueue_script('html5-shiv-script', get_template_directory_uri() . '/js/vendor/html5shiv.js');
 		wp_enqueue_script('jquery');
 		wp_enqueue_script('bootstrap-script', get_template_directory_uri() . '/js/vendor/bootstrap.min.js');
+		wp_enqueue_script('cycle-2', get_template_directory_uri() . '/js/vendor/jquery.cycle2.min.js');
 		wp_enqueue_script('main-script', get_template_directory_uri() . '/js/main.js');
 		wp_enqueue_style('son-of-a-saint-style', get_stylesheet_uri());
 	}// bootstrapBasicEnqueueScripts

@@ -55,7 +55,7 @@ div {
   background-size: contain;
   background-position: left center;
   display: block;
-  width: 200px;
+  width: 180px;
   height: 50px;
   text-indent: -9999px;
   -webkit-transition: color 0ms;
@@ -274,6 +274,7 @@ article.post, article.page {
     padding-top: 160px;
     padding-right: 50%;
     padding-bottom: 40px;
+    z-index: 1000;
 }
 .hero-item .floating-hero-cta .hero-content-box {
     padding-top: 160px;
@@ -396,7 +397,12 @@ article.post, article.page {
   height: 1.5em;
   text-align: center;
 }
-
+.video-cycle .cycle-slideshow a {
+  width: 100%;
+}
+.video-cycle .cycle-slideshow iframe {
+  width: 100%;
+}
 
 /* OTHER STUFF */
 img.aligncenter {
