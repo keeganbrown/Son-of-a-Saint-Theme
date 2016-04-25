@@ -635,11 +635,11 @@ img.aligncenter {
   -ms-transition-delay: 300ms;
   -o-transition-delay: 300ms;
   transition-delay: 300ms;
-  -webkit-transform: translate3d(-30%,0,0);
-  -moz-transform: translate3d(-30%,0,0);
-  -ms-transform: translate3d(-30%,0,0);
-  -o-transform: translate3d(-30%,0,0);
-  transform: translate3d(-30%,0,0);
+  -webkit-transform: translate(-30%,0);
+  -moz-transform: translate(-30%,0);
+  -ms-transform: translate(-30%,0);
+  -o-transform: translate(-30%,0);
+  transform: translate(-30%,0);
   opacity: 0;
 }
 .profile-grid .info p,
@@ -655,11 +655,11 @@ img.aligncenter {
 }
 .profile-grid .profile.no-profile-image a .info,
 .profile-grid .profile a:hover .info {
-  -webkit-transform: translate3d(0,0,0) rotateY(0deg);
-  -moz-transform: translate3d(0,0,0) rotateY(0deg);
-  -ms-transform: translate3d(0,0,0) rotateY(0deg);
-  -o-transform: translate3d(0,0,0) rotateY(0deg);
-  transform: translate3d(0,0,0) rotateY(0deg);
+  -webkit-transform: translate(0,0);
+  -moz-transform: translate(0,0);
+  -ms-transform: translate(0,0);
+  -o-transform: translate(0,0);
+  transform: translate(0,0);
 }
 .profile-grid .profile.no-profile-image a .info p,
 .profile-grid .profile.no-profile-image a .info h3,
@@ -667,15 +667,34 @@ img.aligncenter {
 .profile-grid .profile a:hover .info p,
 .profile-grid .profile a:hover .info h3,
 .profile-grid .profile a:hover .info ul {
-  -webkit-transform: translate3d(0,0,0);
-  -moz-transform: translate3d(0,0,0);
-  -ms-transform: translate3d(0,0,0);
-  -o-transform: translate3d(0,0,0);
-  transform: translate3d(0,0,0);
+  -webkit-transform: translate(0,0);
+  -moz-transform: translate(0,0);
+  -ms-transform: translate(0,0);
+  -o-transform: translate(0,0);
+  transform: translate(0,0);
   opacity: 1;
 }
 
 
+
+.sponsors-box {
+  margin-top: 20px;
+}
+#sponsors-map {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+#sponsors-map a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 15%;
+  height: 15%;
+  background-color: transparent;
+}
 
 .site-main {
   min-height: 55vh;

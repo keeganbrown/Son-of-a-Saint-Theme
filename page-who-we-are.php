@@ -297,10 +297,13 @@ function profile_grid($group, $groupid, $grouptitle)
 ?>
         <div class="col-md-<?php echo $main_column_size; ?> content-area" id="main-column">
           <main id="main" class="container site-main" role="main">
+
             <?php profile_grid($members, '/members', 'Members'); ?>
+
             <?php profile_grid($mentors, '/mentors', 'Mentors'); ?>
+
             <section class="profile-group founder">
-              <h2 id="/founder">
+              <h2 id="/our-founder">
                 <span class="group-title-bar">Our Founder</span>
               </h2>
               <ul class="profile-grid row">
@@ -325,7 +328,30 @@ function profile_grid($group, $groupid, $grouptitle)
                 </li>
               </ul>
             </section>
+
             <?php profile_grid($board, '/board', 'Board of Directors'); ?>
+
+            <section class="profile-group founders-circle">
+              <h2 id="/sponsors">
+                <span class="group-title-bar">Our Sponsors</span>
+              </h2>
+              <div class="sponsors-box text-center">
+                <img id="SPONSORS-IMAGE" src="<?php echo $main_dir; ?>/img/sponsors/SPONSORS.png" border="0" alt="Sponsors" />
+                <div name="sponsors-map" id="sponsors-map">
+                  <a title="Audubon Nature Institute" href="http://audubonnatureinstitute.org/" coords="349,36,542,207" target="_blank" style="top: 2%; left: 28%;"></a>
+                  <a title="Cascade Stables" href="http://www.cascadestables.net/" coords="673,30,866,201" target="_blank" style="top: 2%; left: 53%;"></a>
+                  <a title="Dat Dog" href="http://www.datdog.com" coords="957,194,1150,365" target="_blank" style="top: 15%; left: 75%;"></a>
+                  <a title="Felipe’s Mexican Taqueria" href="http://www.felipestaqueria.com/" coords="1079,468,1272,639" target="_blank" style="top: 38%; left: 84%;"></a>
+                  <a title="Goss Wealth Management" href="http://gosswealthmanagement.com/" coords="1013,787,1206,958" target="_blank" style="top: 64%; left: 79%;"></a>
+                  <a title="Pinkberry" href="http://www.pinkberry.com/" coords="744,1016,937,1187" target="_blank" style="top: 82%; left: 59%;"></a>
+                  <a title="River Rock Stone Works" href="http://www.riverrockstoneworks.com/" coords="403,1038,596,1209" target="_blank" style="top: 83%; left: 32%;"></a>
+                  <a title="Tulane University" href="http://tulane.edu/" coords="114,843,307,1014" target="_blank" style="top: 67%; left: 9%;"></a>
+                  <a title="University of New Orleans" href="http://www.uno.edu/" coords="4,512,223,728" target="_blank" style="top: 43%; left: 1%;"></a>
+                  <a title="WDSU 6 News" href="http://www.wdsu.com" coords="80,192,299,408" target="_blank" style="top: 17%; left: 7%;"></a>
+                </div>
+
+              </div>
+            </section>
           </main>
         </div>
 
