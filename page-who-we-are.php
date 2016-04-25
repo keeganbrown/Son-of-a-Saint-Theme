@@ -11,7 +11,7 @@ get_header();
  * determine main column size from actived sidebar
  */
 $main_column_size = bootstrapBasicGetMainColumnSize();
-
+$main_dir = get_stylesheet_directory_uri();
 
 $members = array(
   array(
@@ -176,29 +176,156 @@ $members = array(
   )
 );
 
+
+$mentors = array(
+  array(
+    "img" => "/img/mentors/mentor-Alden.jpg",
+    "name" => "ALDEN",
+    "story" => "Alden Bishop, Son of a Saint Mentor since _____"
+  ),
+  array(
+    "img" => "/img/mentors/mentor-Allen.jpg",
+    "name" => "ALLEN",
+    "story" => "Allen Smith, Son of a Saint Mentor since _____"
+  ),
+  array(
+    "img" => "/img/mentors/mentor-Chris.jpg",
+    "name" => "CHRIS",
+    "story" => "Chris Musco, Son of a Saint Mentor since _____"
+  ),
+  array(
+    "img" => "/img/mentors/mentor-Ethan.jpg",
+    "name" => "ETHAN",
+    "story" => "Ethan Ashley, Son of a Saint Mentor since _____"
+  ),
+  array(
+    "img" => "/img/mentors/mentor-Julio.jpg",
+    "name" => "JULIO",
+    "story" => "Julio Burmudez, Son of a Saint Mentor since _____"
+  ),
+  array(
+    "img" => "/img/mentors/mentor-Lon.jpg",
+    "name" => "LON",
+    "story" => "Lon Nichols, Son of a Saint Mentor since _____"
+  ),
+  array(
+    "img" => "/img/mentors/mentor-Lovell.jpg",
+    "name" => "LOVELL",
+    "story" => "Lovell Cooper, Son of a Saint Mentor since _____"
+  ),
+  array(
+    "img" => "/img/mentors/mentor-Mark.jpg",
+    "name" => "MARK",
+    "story" => "Mark Schneider, Son of a Saint Mentor since _____"
+  ),
+  array(
+    "img" => "/img/mentors/mentor-Ola.jpg",
+    "name" => "OLA",
+    "story" => "Ola Adegboye, Son of a Saint Mentor since _____"
+  ),
+  array(
+    "img" => "/img/mentors/mentor-Ulyesses.jpg",
+    "name" => "ULYSSES",
+    "story" => "Ulysses White, Son of a Saint Mentor since _____"
+  )
+);
+
+$board = array(
+  array(
+    "img" =>"",
+    "name" => "GIAN",
+    "story"=> "Gian Durand <br> CEO, Durand Group and DP Solutions"
+  ),
+  array(
+    "img" =>"/img/board/board-Mark.jpg",
+    "name" => "MARK",
+    "story"=> "Mark Schneider <br> CEO and Founder, Vision Health"
+  ),
+  array(
+    "img" =>"/img/board/board-Ola.jpg",
+    "name" => "OLA",
+  "story"=> "Ola Adegboya <br> CFO and Executive Associate Athletic Director for Business Affairs, Southeastern   Louisiana Athletics"
+  ),
+  array(
+    "img" =>"",
+    "name" => "PETER",
+    "story"=> "Peter Hamilton III <br> The Law Offices of Peter Hamilton III"
+  ),
+  array(
+    "img" =>"/img/board/board-Sonny.jpg",
+    "name" => "SONNY",
+    "story"=> "Bivian &ldquo;Sonny&rdquo; Lee III <br> Founder/President, Son of a Saint"
+  ),
+  array(
+    "img" =>"",
+    "name" => "TAMICA",
+    "story"=> "Tamica Lee <br> Reporter, WWL-TV"
+  )
+);
+
+function profile_grid($group, $groupid, $grouptitle)
+{
+  global $main_dir;
+  ?>
+      <section class="profile-group">
+      <h2 id="<?php echo $groupid; ?>">
+        <span class="group-title-bar"><?php echo $grouptitle; ?></span>
+      </h2>
+      <ul class="profile-grid row">
+  <?php
+        foreach ($group as $key => $groupmember) {
+  ?>
+        <li class="col-lg-3 col-md-4 col-sm-6 col-xs-12 profile no-pad <?php if ( $groupmember['img'] == '') echo "no-profile-image"; ?>">
+          <a href="#">
+            <?php if ( $groupmember['img'] != '') { ?>
+            <img src="<?php echo $main_dir . $groupmember['img']; ?>" alt="">
+            <? } ?>
+            <div class="info">
+              <h3><?php echo $groupmember['name']; ?></h3>
+              <p><?php echo $groupmember['story']; ?></p>
+            </div>
+          </a>
+        </li>
+  <?php
+        }
+  ?>
+      </ul>
+      </section>
+  <?php
+}
+
 ?>
         <div class="col-md-<?php echo $main_column_size; ?> content-area" id="main-column">
           <main id="main" class="container site-main" role="main">
-            <section>
-            <h2 id="/members">Members</h2>
-            <ul class="member-grid row">
-            <?php
-              foreach ($members as $key => $member) {
-            ?>
-              <li class="col-lg-3 col-md-4 col-sm-6 col-xs-12 member no-pad">
-                <a href="#">
-                <img src="<?php echo get_stylesheet_directory_uri() . $member['img']; ?>" alt="">
-                <div class="info">
-                  <h3><?php echo $member['name']; ?></h3>
-                  <p><?php echo $member['story']; ?></p>
-                </div>
-                </a>
-              </li>
-            <?php
-              }
-            ?>
-            </ul>
+            <?php profile_grid($members, '/members', 'Members'); ?>
+            <?php profile_grid($mentors, '/mentors', 'Mentors'); ?>
+            <section class="profile-group founder">
+              <h2 id="/founder">
+                <span class="group-title-bar">Our Founder</span>
+              </h2>
+              <ul class="profile-grid row">
+                <li class="col-xs-12 profile no-pad">
+                  <a href="#">
+                    <img src="<?php echo $main_dir; ?>/img/founder-Sonny.jpg" alt="">
+                    <div class="info">
+                      <h3>Sonny</h3>
+                      <p>As President of Son of a Saint, Bivian “Sonny” Lee III has dedicated his life to enhancing the lives of fatherless boys. Prior to founding the organization, Sonny served as chief aide to Tom Benson, owner of the New  Orleans Saints and New Orleans Pelicans. He was previously was Director of Operations for the New Orleans Zephyrs AAA baseball team and Director of the New Orleans Jazz Institute.</p>
+                      <p>Sonny graduated with honors from St. Augustine High School and later earned a degree in marketing and management from the University of New Orleans. A TEDx speaker on community service, decision-making and the importance of education, Sonny’s nonprofit work has been highlighted on CNN, Al Jazeera America, NPR and local television stations and newspapers. His work has garnered numerous awards, including:</p>
+                      <ul>
+                        <li>2015 Angel Award, Blue Cross Foundation</li>
+                        <li>2015 Ten Outstanding Young Americans, United States Junior Chamber</li>
+                        <li>2014 People to Watch, New Orleans Magazine</li>
+                        <li>2013 FBI Director’s Community Leadership Award</li>
+                        <li>2013 Champion of Change Award, Crescent City Chapter of Links, Inc.</li>
+                        <li>2013 Millennial Change Maker Award, Spears Consulting</li>
+                        <li>2011 40 Under 40, Gambit Weekly</li>
+                      </ul>
+                    </div>
+                  </a>
+                </li>
+              </ul>
             </section>
+            <?php profile_grid($board, '/board', 'Board of Directors'); ?>
           </main>
         </div>
 

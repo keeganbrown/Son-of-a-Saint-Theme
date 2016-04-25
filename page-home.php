@@ -93,9 +93,9 @@ $main_column_size = bootstrapBasicGetMainColumnSize();
             </section>
           </div>
           <main id="main" class="container site-main" role="main">
-            <div class="row">
+            <div class="row entry-content">
               <div class="col-sm-6">
-                <blockquote>Depriving a boy of his father is <strong>clipping his wings</strong>.</blockquote>
+                <h2><blockquote>Depriving a boy of his father is <strong>clipping his wings</strong>.</blockquote></h2>
               </div>
               <div class="col-sm-6">
                 <p>Depriving a boy of his father is clipping his wings. Even if that seems like common sense, stats lay bare a crushing reality.</p>
@@ -117,7 +117,7 @@ $main_column_size = bootstrapBasicGetMainColumnSize();
               <h3>Help us make our house a home.</h3>
               <p>The Son of a Saint Clubhouse is the heart of our organization. It&rsquo;s a second home for our boys. A place they feel safe and can be themselves as they spend time with their brothers and mentors. This is the place we break bread, where we convene for homework and tutoring, counseling sessions, speakers series, cooking lessons, cookouts, art, yoga and music lessons.  With your help it will be our permanent home. <br>
               <strong>Support the Son of a Saint Clubhouse Fund.</strong></p>
-              <a href="/" class="btn btn-default btn-invert">Make a Donation</a>
+              <a href="https://www.gofundme.com/SOASoperating" target="_blank" class="btn btn-default btn-invert">Make a Donation</a>
             </div>
             </div>
           </aside>
