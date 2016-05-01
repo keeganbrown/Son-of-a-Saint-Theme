@@ -17,15 +17,7 @@ $main_column_size = bootstrapBasicGetMainColumnSize();
           <div class="floating-hero-cta">
           <div class="container">
           <div class="hero-content-box">
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
+            <p>His father is not a part of his life, but Son of a Saint is here for him, providing mentorship, education, recreation, camaraderie, cultural enrichment, emotional support and helping to fill the void for dozens of fatherless young men in New Orleans.</p>
             <a href="/who-we-are/#/members" class="btn btn-default">Meet the Boys</a>
           </div>
           </div>
@@ -37,9 +29,9 @@ $main_column_size = bootstrapBasicGetMainColumnSize();
             <div class="hero-content-box container">
               <h2>Meet <br>
                 Kush</h2>
-              <p>Kush Thompson is a 6th grader at Audubon Charter School and a future astrophysicist. He has a passion for astronomy, robotics and physics &ndash; and plans to attend MIT. Kush is one of dozens of boys whose futures we are working to secure. </p>
-<!--               <a href="/who-we-are/#/members" class="btn btn-default">Meet the Boys</a>
- -->            </div>
+<!--                 <p>Kush Thompson is a 6th grader at Audubon Charter School and a future astrophysicist. He has a passion for astronomy, robotics and physics &ndash; and plans to attend MIT. Kush is one of dozens of boys whose futures we are working to secure. </p>
+               <a href="/who-we-are/#/members" class="btn btn-default">Meet the Boys</a>
+ -->             </div>
             </div>
             </div>
           </div>
@@ -49,8 +41,8 @@ $main_column_size = bootstrapBasicGetMainColumnSize();
             <div class="hero-content-box container">
               <h2>Meet <br>
                 Javier</h2>
-              <p>Javier Castellon&rsquo;s favorite subject is science, and he loves to fish. He had his first fishing trip with his Son of a Saint mentor, Nazim, and has been hooked ever since. Javier is one of dozens of boys whose futures we are working to secure. </p>
-<!--               <a href="/who-we-are/#/members" class="btn btn-default">Meet the Boys</a>
+<!--               <p>Javier Castellon&rsquo;s favorite subject is science, and he loves to fish. He had his first fishing trip with his Son of a Saint mentor, Nazim, and has been hooked ever since. Javier is one of dozens of boys whose futures we are working to secure. </p>
+              <a href="/who-we-are/#/members" class="btn btn-default">Meet the Boys</a>
  -->            </div>
             </div>
             </div>
@@ -61,8 +53,8 @@ $main_column_size = bootstrapBasicGetMainColumnSize();
             <div class="hero-content-box container">
               <h2>Meet <br>
                 Devonte</h2>
-              <p>Devonte Robertson loves math almost as much as he loves playing the drums. He joined Son of a Saint with his twin brother, Devyn, and they&rsquo;ve both thrived in the program. Devonte is one of dozens of boys whose futures we are working to secure.</p>
-<!--               <a href="/who-we-are/#/members" class="btn btn-default">Meet the Boys</a>
+<!--               <p>Devonte Robertson loves math almost as much as he loves playing the drums. He joined Son of a Saint with his twin brother, Devyn, and they&rsquo;ve both thrived in the program. Devonte is one of dozens of boys whose futures we are working to secure.</p>
+              <a href="/who-we-are/#/members" class="btn btn-default">Meet the Boys</a>
  -->            </div>
             </div>
             </div>
@@ -121,7 +113,7 @@ $main_column_size = bootstrapBasicGetMainColumnSize();
               <h3>Help us make our house a home.</h3>
               <p>The Son of a Saint Clubhouse is the heart of our organization. It&rsquo;s a second home for our boys. A place they feel safe and can be themselves as they spend time with their brothers and mentors. This is the place we break bread, where we convene for homework and tutoring, counseling sessions, speakers series, cooking lessons, cookouts, art, yoga and music lessons.  With your help it will be our permanent home. <br>
               <strong>Support the Son of a Saint Clubhouse Fund.</strong></p>
-              <a href="https://www.gofundme.com/SOASoperating" target="_blank" class="btn btn-default btn-invert">Make a Donation</a>
+              <a href="https://www.classy.org/events/son-saint-clubhouse/e78036" target="_blank" class="btn btn-default btn-invert">Make a Donation</a>
             </div>
             </div>
           </aside>

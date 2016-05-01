@@ -27,13 +27,15 @@ $members = array(
   array(
     "img" => "/img/members/member-Anquan.jpg",
     "name" => "Anquan",
-    "story" => "Anquan, Member Since _____"
+    "story" => "Anquan Milton joined Son of a Saint at age 12 to gain guidance and support after his father&rsquo;s death due to complications from open-heart surgery. As a Son of a Saint member, Anquan has enjoyed camaraderie with his fellow members and points to the week he spent at Camp Rockmont in North Carolina as a highpoint of his time with the organization."
   ),
+/*
   array(
     "img" => "/img/members/member-Apsu.jpg",
     "name" => "Apsu",
-    "story" => "Apsu, Member Since _____"
+    "story" => "Apsu, Member Since ____"
   ),
+*/
   array(
     "img" => "/img/members/member-CC.jpg",
     "name" => "CC",
@@ -42,7 +44,7 @@ $members = array(
   array(
     "img" => "/img/members/member-Collin.jpg",
     "name" => "COLLIN",
-    "story" => "Collin Smith, Member Since _____"
+    "story" => "Collin Smith, Member Since 2015"
   ),
   array(
     "img" => "/img/members/member-David.jpg",
@@ -82,7 +84,7 @@ $members = array(
   array(
     "img" => "/img/members/member-Keylon.jpg",
     "name" => "KEYLON",
-    "story" => "Keylon Brown, Member Since _____"
+    "story" => "Keylon Brown, Member Since 2015"
   ),
   array(
     "img" => "/img/members/member-Kolbe.jpg",
@@ -95,14 +97,14 @@ $members = array(
     "story" => "Kush Hamilton has many interests. His passion for robotics and physics is evident in the things he builds &ndash; robots, rockets, radios &ndash; but his curiosity doesn&rsquo;t end there. He loves cooking, photography and architecture, too, but perhaps nothing more than astrophysics, the field he hopes to study at MIT. His top Son of a Saint moment was attending a Neil deGrasse Tyson speaking engagement. "
   ),
   array(
-    "img" => "/img/members/member-Kyzer.jpg",
+    "img" => "/img/members/member-Keyzer.jpg",
     "name" => "KEYZER",
-    "story" => "Keyzer Dunbar, Member Since _____"
+    "story" => "Keyzer Dunbar, Member Since 2016"
   ),
   array(
     "img" => "/img/members/member-Louis.jpg",
     "name" => "LOUIS",
-    "story" => "Louis Zeno, Member Since _____"
+    "story" => "Louis Zeno, Member Since 2015"
   ),
   array(
     "img" => "/img/members/member-Marquell.jpg",
@@ -112,7 +114,7 @@ $members = array(
   array(
     "img" => "/img/members/member-Marvin.jpg",
     "name" => "MARVIN",
-    "story" => "Marvin Dickerson, Member Since _____"
+    "story" => "Marvin Dickerson, Member Since 2016"
   ),
   array(
     "img" => "/img/members/member-Miles.jpg",
@@ -137,7 +139,7 @@ $members = array(
   array(
     "img" => "/img/members/member-Quiten.jpg",
     "name" => "QUINTEN",
-    "story" => "Quinten Crump, Member Since _____"
+    "story" => "Quinten Crump, Member Since 2011"
   ),
   array(
     "img" => "/img/members/member-Scooter.jpg",
@@ -147,7 +149,7 @@ $members = array(
   array(
     "img" => "/img/members/member-Seddrick.jpg",
     "name" => "SEDDRICK",
-    "story" => "Seddrick Reynolds, Member Since _____"
+    "story" => "Seddrick Reynolds, Member Since 2016"
   ),
   array(
     "img" => "/img/members/member-Taylor.jpg",
@@ -157,7 +159,7 @@ $members = array(
   array(
     "img" => "/img/members/member-Trenyaee.jpg",
     "name" => "TRENYAEE",
-    "story" => "Trenyaee Cole, Member Since _____"
+    "story" => "Trenyaee Cole, Member Since 2016"
   ),
   array(
     "img" => "/img/members/member-Trey.jpg",
@@ -167,7 +169,7 @@ $members = array(
   array(
     "img" => "/img/members/member-William.jpg",
     "name" => "WILLIAM",
-    "story" => "William Eleby, Member Since  _____"
+    "story" => "William Eleby, Member Since 2016"
   ),
   array(
     "img" => "/img/members/member-Zander.jpg",
@@ -179,62 +181,92 @@ $members = array(
 
 $mentors = array(
   array(
-    "img" => "/img/mentors/mentor-Alden.jpg",
-    "name" => "ALDEN",
-    "story" => "Alden Bishop, Son of a Saint Mentor since _____"
+    "img" => "/img/mentors/mentor-Lon.jpg",
+    "name" => "Lon",
+    "story" => "Lon Nichols, Son of a Saint Mentor since 2011"
   ),
   array(
-    "img" => "/img/mentors/mentor-Allen.jpg",
-    "name" => "ALLEN",
-    "story" => "Allen Smith, Son of a Saint Mentor since _____"
+    "img" => "/img/mentors/mentor-Charles.jpg",
+    "name" => "Charles",
+    "story" => "Charles Barclay, Son of a Saint Mentor since 2014"
+  ),
+  array(
+    "img" => "/img/mentors/mentor-Justin.jpg",
+    "name" => "Justin",
+    "story" => "Justin Jack, Son of a Saint Mentor since 2016"
+  ),
+  array(
+    "img" => "/img/mentors/mentor-Emeka.jpg",
+    "name" => "Emeka",
+    "story" => "Emeka Dibia, Son of a Saint Mentor since 2016"
+  ),
+  array(
+    "img" => "/img/mentors/mentor-Neresh.jpg",
+    "name" => "Neresh",
+    "story" => "Neresh Copeland, Son of a Saint Mentor since 2016"
+  ),
+  array(
+    "img" => "/img/mentors/mentor-Nicholas.jpg",
+    "name" => "Nicholas",
+    "story" => "Nicholas Peddle, Son of a Saint Mentor since 2016"
   ),
   array(
     "img" => "/img/mentors/mentor-Chris.jpg",
-    "name" => "CHRIS",
-    "story" => "Chris Musco, Son of a Saint Mentor since _____"
+    "name" => "Chris",
+    "story" => "Chris Musco, Son of a Saint Mentor since 2014"
   ),
   array(
-    "img" => "/img/mentors/mentor-Ethan.jpg",
-    "name" => "ETHAN",
-    "story" => "Ethan Ashley, Son of a Saint Mentor since _____"
-  ),
-  array(
-    "img" => "/img/mentors/mentor-Julio.jpg",
-    "name" => "JULIO",
-    "story" => "Julio Burmudez, Son of a Saint Mentor since _____"
-  ),
-  array(
-    "img" => "/img/mentors/mentor-Lon.jpg",
-    "name" => "LON",
-    "story" => "Lon Nichols, Son of a Saint Mentor since _____"
-  ),
-  array(
-    "img" => "/img/mentors/mentor-Lovell.jpg",
-    "name" => "LOVELL",
-    "story" => "Lovell Cooper, Son of a Saint Mentor since _____"
+    "img" => "/img/mentors/mentor-Alden.jpg",
+    "name" => "Alden",
+    "story" => "Alden Bishop, Son of a Saint Mentor since 2016"
   ),
   array(
     "img" => "/img/mentors/mentor-Mark.jpg",
-    "name" => "MARK",
-    "story" => "Mark Schneider, Son of a Saint Mentor since _____"
+    "name" => "Mark",
+    "story" => "Mark Schneider, Son of a Saint Mentor since 2014"
+  ),
+  array(
+    "img" => "/img/mentors/mentor-Julio.jpg",
+    "name" => "Julio",
+    "story" => "Julio Burmudez, Son of a Saint Mentor since 2014"
   ),
   array(
     "img" => "/img/mentors/mentor-Ola.jpg",
-    "name" => "OLA",
-    "story" => "Ola Adegboye, Son of a Saint Mentor since _____"
+    "name" => "Ola",
+    "story" => "Ola Adegboye, Son of a Saint Mentor since 2011"
+  ),
+  array(
+    "img" => "/img/mentors/mentor-Ethan.jpg",
+    "name" => "Ethan",
+    "story" => "Ethan Ashley, Son of a Saint Mentor since 2012"
+  ),
+  array(
+    "img" => "/img/mentors/mentor-Lovell.jpg",
+    "name" => "Lovell",
+    "story" => "Lovell Cooper, Son of a Saint Mentor since 2013"
   ),
   array(
     "img" => "/img/mentors/mentor-Ulyesses.jpg",
-    "name" => "ULYSSES",
-    "story" => "Ulysses White, Son of a Saint Mentor since _____"
+    "name" => "Ulysses",
+    "story" => "Ulysses White, Son of a Saint Mentor since 2015"
+  ),
+  array(
+    "img" => "/img/mentors/mentor-Allen.jpg",
+    "name" => "Allen",
+    "story" => "Allen Smith, Son of a Saint Mentor since 2013"
+  ),
+  array(
+    "img" => "/img/mentors/mentor-Clayton.jpg",
+    "name" => "Clayton",
+    "story" => "Clayton Shelvin, Son of a Saint Mentor since 2015"
   )
 );
 
 $board = array(
   array(
-    "img" =>"",
-    "name" => "GIAN",
-    "story"=> "Gian Durand <br> CEO, Durand Group and DP Solutions"
+    "img" =>"/img/board/board-Ola.jpg",
+    "name" => "OLA",
+  "story"=> "Ola Adegboya <br> CFO and Executive Associate Athletic Director for Business Affairs, Southeastern   Louisiana Athletics"
   ),
   array(
     "img" =>"/img/board/board-Mark.jpg",
@@ -242,12 +274,12 @@ $board = array(
     "story"=> "Mark Schneider <br> CEO and Founder, Vision Health"
   ),
   array(
-    "img" =>"/img/board/board-Ola.jpg",
-    "name" => "OLA",
-  "story"=> "Ola Adegboya <br> CFO and Executive Associate Athletic Director for Business Affairs, Southeastern   Louisiana Athletics"
+    "img" =>"/img/board/board-Gian.jpg",
+    "name" => "GIAN",
+    "story"=> "Gian Durand <br> CEO, Durand Group and DP Solutions"
   ),
   array(
-    "img" =>"",
+    "img" =>"/img/board/board-Peter.jpg",
     "name" => "PETER",
     "story"=> "Peter Hamilton III <br> The Law Offices of Peter Hamilton III"
   ),
@@ -257,7 +289,7 @@ $board = array(
     "story"=> "Bivian &ldquo;Sonny&rdquo; Lee III <br> Founder/President, Son of a Saint"
   ),
   array(
-    "img" =>"",
+    "img" =>"/img/board/board-Tamica.jpg",
     "name" => "TAMICA",
     "story"=> "Tamica Lee <br> Reporter, WWL-TV"
   )
@@ -276,7 +308,7 @@ function profile_grid($group, $groupid, $grouptitle)
         foreach ($group as $key => $groupmember) {
   ?>
         <li class="col-lg-3 col-md-4 col-sm-6 col-xs-12 profile no-pad <?php if ( $groupmember['img'] == '') echo "no-profile-image"; ?>">
-          <a href="#">
+          <a href="#<?php echo sanitize_title($groupmember['name']); ?>">
             <?php if ( $groupmember['img'] != '') { ?>
             <img src="<?php echo $main_dir . $groupmember['img']; ?>" alt="">
             <? } ?>
