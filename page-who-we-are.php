@@ -307,7 +307,7 @@ function profile_grid($group, $groupid, $grouptitle)
   <?php
         foreach ($group as $key => $groupmember) {
   ?>
-        <li class="col-lg-3 col-md-4 col-sm-6 col-xs-12 profile no-pad <?php if ( $groupmember['img'] == '') echo "no-profile-image"; ?>">
+        <li class="col-lg-3 col-md-4 col-sm-4 col-xs-12 profile no-pad <?php if ( $groupmember['img'] == '') echo "no-profile-image"; ?>">
           <a href="#<?php echo sanitize_title($groupmember['name']); ?>">
             <?php if ( $groupmember['img'] != '') { ?>
             <img src="<?php echo $main_dir . $groupmember['img']; ?>" alt="">

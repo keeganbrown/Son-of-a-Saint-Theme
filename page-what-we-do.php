@@ -82,7 +82,7 @@ $main_dir = get_stylesheet_directory_uri();
               </header>
             </section>
             <section id="/our-beginning" class="row wide-col statement-block">
-              <div class="col-sm-6">
+              <div class="col-md-6 col-sm-8 col-sm-offset-2">
                 <header class="boxed-header text-center">
                   <div class="headline-box">
                     <h3 class="headline">Our Beginning</h3>
@@ -92,7 +92,7 @@ $main_dir = get_stylesheet_directory_uri();
                   <p>In turn, Sonny, then 29, founded Son of a Saint on January 1, 2011, in honor of his late father and single mother. He aims to &ldquo;pay it forward&rdquo; and replicate his own experience for a special group of fatherless young males in the community.</p>
                 </header>
               </div>
-              <div class="col-sm-6">
+              <div class="col-md-6 col-sm-8 col-sm-offset-2">
                 <img class="icon" src="<?php echo $main_dir; ?>/img/what-we-do/www-sonnyMontage.jpg" alt="">
               </div>
             </section>
