@@ -17,7 +17,7 @@ $main_column_size = bootstrapBasicGetMainColumnSize();
           <div class="floating-hero-cta">
           <div class="container">
           <div class="hero-content-box">
-            <p>His father is not a part of his life, but Son of a Saint is here for him, providing mentorship, education, recreation, camaraderie, cultural enrichment, emotional support and helping to fill the void for dozens of fatherless young men in New Orleans.</p>
+            <p>His father is not a part of his life, but Son of a Saint is here for him, providing mentorship, education, recreation, camaraderie, cultural enrichment, emotional support and helping to fill the void for dozens of fatherless young men in <nobr>New Orleans.</nobr></p>
             <a href="/who-we-are/#/members" class="btn btn-default">Meet the Boys</a>
           </div>
           </div>
@@ -27,7 +27,7 @@ $main_column_size = bootstrapBasicGetMainColumnSize();
             <div class="floating-hero-cta-wrap">
             <div class="floating-hero-cta">
             <div class="hero-content-box container">
-              <h2>Meet <br>
+              <h2>This is <br>
                 Kush</h2>
 <!--                 <p>Kush Thompson is a 6th grader at Audubon Charter School and a future astrophysicist. He has a passion for astronomy, robotics and physics &ndash; and plans to attend MIT. Kush is one of dozens of boys whose futures we are working to secure. </p>
                <a href="/who-we-are/#/members" class="btn btn-default">Meet the Boys</a>
@@ -39,7 +39,7 @@ $main_column_size = bootstrapBasicGetMainColumnSize();
             <div class="floating-hero-cta-wrap">
             <div class="floating-hero-cta">
             <div class="hero-content-box container">
-              <h2>Meet <br>
+              <h2>This is <br>
                 Javier</h2>
 <!--               <p>Javier Castellon&rsquo;s favorite subject is science, and he loves to fish. He had his first fishing trip with his Son of a Saint mentor, Nazim, and has been hooked ever since. Javier is one of dozens of boys whose futures we are working to secure. </p>
               <a href="/who-we-are/#/members" class="btn btn-default">Meet the Boys</a>
@@ -51,7 +51,7 @@ $main_column_size = bootstrapBasicGetMainColumnSize();
             <div class="floating-hero-cta-wrap">
             <div class="floating-hero-cta">
             <div class="hero-content-box container">
-              <h2>Meet <br>
+              <h2>This is <br>
                 Devonte</h2>
 <!--               <p>Devonte Robertson loves math almost as much as he loves playing the drums. He joined Son of a Saint with his twin brother, Devyn, and they&rsquo;ve both thrived in the program. Devonte is one of dozens of boys whose futures we are working to secure.</p>
               <a href="/who-we-are/#/members" class="btn btn-default">Meet the Boys</a>
@@ -83,8 +83,8 @@ $main_column_size = bootstrapBasicGetMainColumnSize();
                   </a>
               </div>
               <nav>
-                <a id="prev" href="#prev"><i class="fa fa-chevron-left"></i></a>
-                <a id="next" href="#next"><i class="fa fa-chevron-right"></i></a>
+                <a id="prev" href="#"><i class="fa fa-chevron-left"></i></a>
+                <a id="next" href="#"><i class="fa fa-chevron-right"></i></a>
               </nav>
             </section>
           </div>

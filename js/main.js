@@ -27,7 +27,6 @@ $(function() {
   }
   $('body').on('click', 'a[href*="#"]', function(e) {
     var target = $(escapeSlash(this.hash));
-    console.log('hey', target);
     if ( target[0] ) {
       e.preventDefault();
       $('html,body').animate({

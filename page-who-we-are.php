@@ -340,17 +340,17 @@ function profile_grid($group, $groupid, $grouptitle)
               </h2>
               <ul class="profile-grid row">
                 <li class="col-xs-12 profile no-pad">
-                  <a href="#">
+                  <a href="#our-founder">
                     <img src="<?php echo $main_dir; ?>/img/founder-Sonny.jpg" alt="">
                     <div class="info">
                       <h3>Sonny</h3>
-                      <p>As President of Son of a Saint, Bivian “Sonny” Lee III has dedicated his life to enhancing the lives of fatherless boys. Prior to founding the organization, Sonny served as chief aide to Tom Benson, owner of the New  Orleans Saints and New Orleans Pelicans. He was previously was Director of Operations for the New Orleans Zephyrs AAA baseball team and Director of the New Orleans Jazz Institute.</p>
-                      <p>Sonny graduated with honors from St. Augustine High School and later earned a degree in marketing and management from the University of New Orleans. A TEDx speaker on community service, decision-making and the importance of education, Sonny’s nonprofit work has been highlighted on CNN, Al Jazeera America, NPR and local television stations and newspapers. His work has garnered numerous awards, including:</p>
+                      <p>As President of Son of a Saint, Bivian &ldquo;Sonny&rdquo; Lee III has dedicated his life to enhancing the lives of fatherless boys. Prior to founding the organization, Sonny served as chief aide to Tom Benson, owner of the New  Orleans Saints and New Orleans Pelicans. He was previously was Director of Operations for the New Orleans Zephyrs AAA baseball team and Director of the New Orleans Jazz Institute.</p>
+                      <p>Sonny graduated with honors from St. Augustine High School and later earned a degree in marketing and management from the University of New Orleans. A TEDx speaker on community service, decision-making and the importance of education, Sonny&rsquo;s nonprofit work has been highlighted on CNN, Al Jazeera America, NPR and local television stations and newspapers. His work has garnered numerous awards, including:</p>
                       <ul>
                         <li>2015 Angel Award, Blue Cross Foundation</li>
                         <li>2015 Ten Outstanding Young Americans, United States Junior Chamber</li>
                         <li>2014 People to Watch, New Orleans Magazine</li>
-                        <li>2013 FBI Director’s Community Leadership Award</li>
+                        <li>2013 FBI Director&rsquo;s Community Leadership Award</li>
                         <li>2013 Champion of Change Award, Crescent City Chapter of Links, Inc.</li>
                         <li>2013 Millennial Change Maker Award, Spears Consulting</li>
                         <li>2011 40 Under 40, Gambit Weekly</li>
