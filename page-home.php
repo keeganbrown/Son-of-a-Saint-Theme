@@ -29,9 +29,7 @@ $main_column_size = bootstrapBasicGetMainColumnSize();
             <div class="hero-content-box container">
               <h2>This is <br>
                 Kush</h2>
-<!--                 <p>Kush Thompson is a 6th grader at Audubon Charter School and a future astrophysicist. He has a passion for astronomy, robotics and physics &ndash; and plans to attend MIT. Kush is one of dozens of boys whose futures we are working to secure. </p>
-               <a href="/who-we-are/#/members" class="btn btn-default">Meet the Boys</a>
- -->             </div>
+            </div>
             </div>
             </div>
           </div>
@@ -41,9 +39,11 @@ $main_column_size = bootstrapBasicGetMainColumnSize();
             <div class="hero-content-box container">
               <h2>This is <br>
                 Javier</h2>
-<!--               <p>Javier Castellon&rsquo;s favorite subject is science, and he loves to fish. He had his first fishing trip with his Son of a Saint mentor, Nazim, and has been hooked ever since. Javier is one of dozens of boys whose futures we are working to secure. </p>
-              <a href="/who-we-are/#/members" class="btn btn-default">Meet the Boys</a>
- -->            </div>
+              <div class="hidden-md hidden-lg">
+                <p>His father is not a part of his life, but Son of a Saint is here for him, providing mentorship, education, recreation, camaraderie, cultural enrichment, emotional support and helping to fill the void for dozens of fatherless young men in <nobr>New Orleans.</nobr></p>
+                <a href="/who-we-are/#/members" class="btn btn-default">Meet the Boys</a>
+              </div>
+            </div>
             </div>
             </div>
           </div>
@@ -53,9 +53,11 @@ $main_column_size = bootstrapBasicGetMainColumnSize();
             <div class="hero-content-box container">
               <h2>This is <br>
                 Devonte</h2>
-<!--               <p>Devonte Robertson loves math almost as much as he loves playing the drums. He joined Son of a Saint with his twin brother, Devyn, and they&rsquo;ve both thrived in the program. Devonte is one of dozens of boys whose futures we are working to secure.</p>
-              <a href="/who-we-are/#/members" class="btn btn-default">Meet the Boys</a>
- -->            </div>
+              <div class="hidden-md hidden-lg">
+                <p>His father is not a part of his life, but Son of a Saint is here for him, providing mentorship, education, recreation, camaraderie, cultural enrichment, emotional support and helping to fill the void for dozens of fatherless young men in <nobr>New Orleans.</nobr></p>
+                <a href="/who-we-are/#/members" class="btn btn-default">Meet the Boys</a>
+              </div>
+            </div>
             </div>
             </div>
           </div>
@@ -88,17 +90,21 @@ $main_column_size = bootstrapBasicGetMainColumnSize();
               </nav>
             </section>
           </div>
-          <main id="main" class="container site-main" role="main">
+          <div class="container">
+          <main id="main" class="site-main" role="main">
             <div class="row entry-content">
               <div class="col-sm-6">
                 <h2><blockquote>Depriving a boy of his father is <strong>clipping his wings</strong>.</blockquote></h2>
               </div>
               <div class="col-sm-6">
-                <p>Depriving a boy of his father is clipping his wings. Even if that seems like common sense, stats lay bare a crushing reality.</p>
-                <p>Fatherless homes give us:</p>
-                <p>85% of the youth prison population</p>
-                <p>71% of all high school dropouts</p>
-                <p>75% of all male patients in chemical abuse centers</p>
+                <p>Depriving a boy of his father is clipping his wings.</p>
+                <p>Even if that seems like common sense, stats lay bare a <strong>crushing reality</strong>.</p>
+                <p>Fatherless homes give us:
+                <ul>
+                <li>85% of the youth prison population</li>
+                <li>71% of all high school dropouts</li>
+                <li>75% of all male patients in chemical abuse centers</li></p>
+</ul>
                 <p>Still, every day, <strong>fathers leave</strong>. They die. They are incarcerated. They just go away.</p>
                 <p>Left behind are <strong>children in crisis</strong>, and too often these kids grow into future fathers who leave.</p>
                 <p>
@@ -107,12 +113,13 @@ $main_column_size = bootstrapBasicGetMainColumnSize();
               </div>
             </div>
           </main>
+          </div>
           <aside class="donate-cta row">
             <div class="donate-wrap container">
             <div class="donate-copy">
               <h3>Help us make our house a home.</h3>
-              <p>The Son of a Saint Clubhouse is the heart of our organization. It&rsquo;s a second home for our boys. A place they feel safe and can be themselves as they spend time with their brothers and mentors. This is the place we break bread, where we convene for homework and tutoring, counseling sessions, speakers series, cooking lessons, cookouts, art, yoga and music lessons.  With your help it will be our permanent home. <br>
-              <strong>Support the Son of a Saint Clubhouse Fund.</strong></p>
+              <p>The Son of a Saint Clubhouse is the heart of our organization. It&rsquo;s a second home for our boys. A place they feel safe and can be themselves as they spend time with their brothers and mentors. This is the place we break bread, where we convene for homework and tutoring, counseling sessions, cooking lessons, cookouts, art, yoga and more.  With your help it will be our permanent home. <br> <br>
+              <strong>Support the Son of a Saint Clubhouse Fund</strong></p>
               <a href="https://www.classy.org/events/son-saint-clubhouse/e78036" target="_blank" class="btn btn-default btn-invert">Make a Donation</a>
             </div>
             </div>

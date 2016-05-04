@@ -282,7 +282,7 @@ article.post, article.page {
     background-position: center center;
   }
 }
-@media screen and ( max-height: 550px ) {
+@media screen and ( max-height: 500px ) {
   .hero-item {
     background-size: contain;
   }
@@ -293,9 +293,7 @@ article.post, article.page {
     padding-bottom: 40px;
     z-index: 1000;
 }
-.hero-item .floating-hero-cta .hero-content-box {
-    padding-top: 160px;
-}
+
 .hero-content-box h2 {
   float: left;
   clear: both;
@@ -402,25 +400,56 @@ article.post, article.page {
     width: 40%;
   }
 }
+
 .floating-hero-cta-wrap {
   position: absolute;
   height: 100%;
   width: 100%;
-  clip: rect(0, auto, auto, 0);
   z-index: 100;
 }
 .floating-hero-cta {
-  position: fixed;
+  position: absolute;
   z-index: 100;
   width: 100%;
   top: 0;
   left: 0;
 }
 .floating-hero-cta .hero-content-box {
-  padding-top: 40vh;
+  padding-top: 35vh;
   padding-right: 35%;
 }
-@media screen and (min-width: 768px) {
+.hero-item .floating-hero-cta .hero-content-box {
+  padding-top: 120px;
+}
+.tablet-phone-only {
+
+}
+@media screen and (min-width: 992px) {
+  .hero-item .floating-hero-cta .hero-content-box {
+    padding-top: 160px;
+  }
+  .floating-hero-cta .hero-content-box {
+    padding-top: 40vh;
+    padding-right: 35%;
+  }
+  .floating-hero-cta-wrap {
+    clip: rect(0, auto, auto, 0);
+  }
+  .floating-hero-cta {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+}
+
+
+.floating-hero-cta .hero-content-box {
+  padding-right: 50%;
+  padding-top: 19em;
+}
+@media screen and (min-width: 992px) {
   .floating-hero-cta .hero-content-box {
     padding-right: 50%;
     padding-top: 22em;
@@ -428,6 +457,12 @@ article.post, article.page {
 }
 .main-floating-cta {
   z-index: 499;
+  max-height: 110vh;
+}
+@media screen and (min-width: 992px) {
+  .main-floating-cta {
+    max-height: none;
+  }
 }
 .sharing-links a {
   display: inline-block;
@@ -466,7 +501,7 @@ article.post, article.page {
 .video-cycle nav a {
   display: block;
   position: absolute;
-  bottom: 450%;
+  bottom: 220%;
   left: 10px;
   color: #c58232;
   border: 1px solid #c58232;
